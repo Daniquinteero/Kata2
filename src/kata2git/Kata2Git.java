@@ -20,7 +20,6 @@ public class Kata2Git {
         int[] data = {1,2,3,4,1,2,3,4,1,2,3,4,5,5,1};
         Map<Integer, Integer> histogram = new HashMap<Integer, Integer>();
 
-
         // version 1
         for (int i = 0; i < data.length; i++){
             
