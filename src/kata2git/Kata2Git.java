@@ -17,9 +17,9 @@ public class Kata2Git {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[] data = {1,2,3,4,1,2,3,4,1,2,3,4,5,5,1};
+        Integer[] data = {1,2,3,4,1,2,3,4,1,2,3,4,5,5,1};
 
-        // version 3
+        // version 4
         
         Histogram histo = new Histogram(data);
         Map<Integer, Integer> histogr = histo.getHistogram();
