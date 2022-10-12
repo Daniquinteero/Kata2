@@ -18,12 +18,11 @@ public class Kata2Git {
      */
     public static void main(String[] args) {
         int[] data = {1,2,3,4,1,2,3,4,1,2,3,4,5,5,1};
-        Map<Integer, Integer> histogram = new HashMap<Integer, Integer>();
 
-        // version 2
-        for (int key : data){
-            histogram.put(key, histogram.containsKey(key) ? histogram.get(key) + 1 : 1);
-        }
+        // version 3
+        
+        Histogram histo = new Histogram(data);
+        Map<Integer, Integer> histogram = histo.getHistogram();
         
         for(Map.Entry<Integer, Integer> entry : histogram.entrySet()){
             System.out.println(entry.getKey() + "====>" + entry.getValue());
