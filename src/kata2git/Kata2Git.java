@@ -22,9 +22,9 @@ public class Kata2Git {
         // version 3
         
         Histogram histo = new Histogram(data);
-        Map<Integer, Integer> histogram = histo.getHistogram();
+        Map<Integer, Integer> histogr = histo.getHistogram();
         
-        for(Map.Entry<Integer, Integer> entry : histogram.entrySet()){
+        for(Map.Entry<Integer, Integer> entry : histogr.entrySet()){
             System.out.println(entry.getKey() + "====>" + entry.getValue());
         }
     }
