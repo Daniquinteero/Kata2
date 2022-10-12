@@ -10,16 +10,15 @@ import java.util.Map;
 public class Kata2Git {
 
     public static void main(String[] args) {
-        Integer[] data = {1,2,3,4,1,2,3,4,1,2,3,4,5,5,1};
+        String[] data = {"Rosa", "Pepe", "María", "Pepe", "Pepe", "Rosa"};
 
-        // version 4
+        // version 5
         
         Histogram histo = new Histogram(data);
-        Map<Integer, Integer> histogr = histo.getHistogram();
+        Map<String, Integer> histogr = histo.getHistogram();
         
-        for(Map.Entry<Integer, Integer> entry : histogr.entrySet()){
+        for(Map.Entry<String, Integer> entry : histogr.entrySet()){
             System.out.println(entry.getKey() + "====>" + entry.getValue());
         }
     }
-    
 }
