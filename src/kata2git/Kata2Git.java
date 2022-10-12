@@ -7,15 +7,8 @@ package kata2git;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *
- * @author daniel
- */
 public class Kata2Git {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Integer[] data = {1,2,3,4,1,2,3,4,1,2,3,4,5,5,1};
 
